@@ -52,7 +52,7 @@ header h1 {
 
 @media (max-width: 550px) {
     header h1 {
-        font-size: 28px;
+        font-size: 22px;
     }
 }
 
@@ -65,6 +65,12 @@ header h1 {
     font-size: 0.9em;
 }
 
+@media (max-width: 550px) {
+    .menu1 {
+        padding-top: 10px;
+    }
+}
+
 .menu_p {
     margin-right: 5px;
     text-decoration: none;
@@ -74,6 +80,13 @@ header h1 {
     padding: 4px 20px;
     border-radius: 9px;
     font-weight: bold;
+}
+
+@media (max-width: 550px) {
+    .menu_p {
+        font-size: 13px;
+        padding: 2px 10px;
+    }
 }
 
 .menu_p:hover {
@@ -89,6 +102,14 @@ header h1 {
     padding: 4px;
     border-radius: 9px;
     font-weight: bold;
+}
+
+@media (max-width: 550px) {
+    .menu_1 {
+        font-size: 13px;
+        padding: 2px;
+        margin-left: 10px;
+    }
 }
 
 .menu_1:hover {

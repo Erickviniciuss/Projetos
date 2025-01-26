@@ -44,8 +44,8 @@ header h1 {
     color: var(--corp2);
     font-family: var(--fonte-tlt);
     font-weight: lighter;
-    padding: 8px 20px;
     font-style: none;
+    padding: 12px 20px;
     text-decoration: none;
     margin-bottom: 10px;
 }
@@ -485,8 +485,8 @@ footer a:hover {
     color: white;
     background-color: black;
     border: var(--corp2) solid 2px;
-    padding: 1px 8px;
-    margin-left: 20px;
+    padding: 2px 8px 1px 8px;
+    margin-left: 10px;
     border-radius: 8px;
 }
 
@@ -494,6 +494,13 @@ footer a:hover {
     background-color: var(--corp2);
     color: black;
     transition-duration: .3s;
+}
+
+@media (max-width: 550px) {
+    .navpagina2 .pagina2_menu_inicio {
+        margin-left: 10px;
+        font-size: 14px;
+    }
 }
 
 .botao_home_inicio {
@@ -565,7 +572,7 @@ footer a:hover {
     font-family: var(--fonte-prc);
     color: black;
     border: black solid 2px;
-    padding: 1px 8px;
+    padding: 2px 8px 1px 8px;
     margin-left: 20px;
     border-radius: 8px;
 }
@@ -582,7 +589,7 @@ footer a:hover {
     font-family: var(--fonte-prc);
     color: black;
     border: black solid 2px;
-    padding: 1px 8px;
+    padding: 1px 8px 1px 8px;
     margin-left: 20px;
     border-radius: 8px;
     box-sizing: border-box;
@@ -649,6 +656,12 @@ footer a:hover {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.438);
 }
 
+@media (max-width: 550px) {
+    .pagina4_aside {
+        border: var(--cor1) solid 7px;
+    }
+}
+
 .pagina4_ul {
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
@@ -676,8 +689,8 @@ footer a:hover {
     background-color: black;
     color: var(--corp2);
     padding: 8px 8px 25px 8px;
-    text-align: center;
     border-top-left-radius: 10px;
+    text-align: center;
     border-top-right-radius: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.438);
 }
@@ -754,4 +767,62 @@ footer a:hover {
 
 .android_ul p {
     font-weight: normal;
+}
+
+.botao_home_pagina3 {
+    display: inline-block;
+    font-weight: bold;
+    font-family: var(--fonte-prc);
+    color: black;
+    border: black solid 2px;
+    padding: 1px 8px 1px 8px;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.botao_home3_pagina3 {
+    width: 15px;
+    height: 15px;
+    background-image: url('midia/Imagens/casaicone.png');
+    background-position: center ;
+    background-size: cover;
+    margin-top: -17px;
+    margin-bottom: 1px;  
+}
+
+.botao_home_pagina3:hover .botao_home3_pagina2 {
+    background-image: url("midia/Imagens/casaicone2.png");
+    transition-duration: .3s;
+}
+
+.botao_home_pagina3:hover {
+    background-color: black;
+    transition-duration: .3s;
+}
+
+.pagina3_nav_fim {
+    text-decoration: none;
+    font-weight: bold;
+    font-family: var(--fonte-prc);
+    color: black;
+    border: black solid 2px;
+    padding: 2px 6px 1px 6px;
+    margin-left: 8px;
+    border-radius: 8px;
+}
+
+.pagina3_nav_fim:hover {
+    background-color: black;
+    color: var(--corp2);
+    transition-duration: .3s;
+}
+
+@media (max-width: 550px) {
+    .pagina3_nav_fim {
+        font-size: 15px;
+        margin-left: 7px;
+        padding: 1px 5px;
+    }
 }

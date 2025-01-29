@@ -391,8 +391,9 @@ footer {
 }
 
 .link_git {
-    width: 15px;
+    width: 13px;
     padding-top: 2px;
+    padding-right: 3px;
 }
 
 .fim_site {

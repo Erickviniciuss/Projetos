@@ -192,7 +192,7 @@ main {
 }
 
 @media (max-width: 550px) {
-    p {
+    main p {
         font-size: 3vw;
     }
 }
